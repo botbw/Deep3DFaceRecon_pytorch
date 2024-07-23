@@ -66,7 +66,7 @@ class BaseOptions():
             opt, _ = parser.parse_known_args(self.cmd_line)
 
         # set cuda visible devices
-        os.environ['CUDA_VISIBLE_DEVICES'] = opt.gpu_ids
+        # os.environ['CUDA_VISIBLE_DEVICES'] = opt.gpu_ids
 
         # modify model-related parser options
         model_name = opt.model
