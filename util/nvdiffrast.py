@@ -24,7 +24,7 @@ class MeshRenderer(nn.Module):
                 znear=0.1,
                 zfar=10, 
                 rasterize_size=224,
-                use_opengl=True):
+                use_opengl=False):
         super(MeshRenderer, self).__init__()
 
         x = np.tan(np.deg2rad(rasterize_fov * 0.5)) * znear
