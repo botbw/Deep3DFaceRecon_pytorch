@@ -6,3 +6,8 @@ arcface_torch
 *.mat
 *.bin
 *.pth
+
+*.txt
+*.obj
+*.png
+*.json
